@@ -239,6 +239,11 @@
                     "description": "Invert minimap2filter and exclude the given taxids instead",
                     "help_text": "Exclude a list of taxids from analysis outputs."
                 },
+                "run_nanoclust": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Run NanoCLUST on extracted minimap2 reads to generate per-cluster consensus FASTA sequences."
+                },
                 "keep_bam": {
                     "type": "boolean",
                     "title": "Enable keep BAM files",
